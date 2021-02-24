@@ -16,5 +16,5 @@ class BisextileTest(unittest.TestCase):
         self.assertFalse(actual, "Fizz")
 
     def test_should_be_multiple_five(self):
-        actual = fizzbuzzChecker.is_bob(7)
+        actual = fizzbuzzChecker.is_bob(8)
         self.assertFalse(actual, "Fizz")
