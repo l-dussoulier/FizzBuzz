@@ -7,4 +7,6 @@ class fizzbuzzChecker:
             return True
         if (num % 3 == 0 or num % 5 == 0):
             return True
+        if (num % 3 == 0 and num % 5 == 0):
+            return True
         return False
