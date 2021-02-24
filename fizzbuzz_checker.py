@@ -2,4 +2,7 @@ class fizzbuzzChecker:
 
     @staticmethod
     def is_bob(num):
-            return False
+        if (num == 0):
+            raise NameError('valeur null')
+            return True
+        return False
