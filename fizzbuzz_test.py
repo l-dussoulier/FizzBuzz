@@ -11,8 +11,10 @@ class BisextileTest(unittest.TestCase):
         actual = fizzbuzzChecker.is_bob(1)
         self.assertFalse(actual, "négatif")
 
-
     def test_should_be_multiple_three(self):
-        actual = fizzbuzzChecker.is_bob(3)
+        actual = fizzbuzzChecker.is_bob(4)
         self.assertFalse(actual, "Fizz")
 
+    def test_should_be_multiple_five(self):
+        actual = fizzbuzzChecker.is_bob(7)
+        self.assertFalse(actual, "Fizz")
