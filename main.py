@@ -1,0 +1,1 @@
+from fizzbuzz_checker import fizzbuzzChecker
